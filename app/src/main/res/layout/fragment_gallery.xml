@@ -28,6 +28,8 @@
         android:layout_above="@+id/button_retry"
         android:layout_centerHorizontal="true"
         android:text="Results could not be loaded"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="10dp"
         android:visibility="gone"
         tools:visibility="visible" />
 
@@ -45,7 +47,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="No results found for this query"
+        android:text="No results found"
+        android:layout_marginVertical="20dp"
         android:visibility="gone"
         tools:visibility="visible" />
 </RelativeLayout>

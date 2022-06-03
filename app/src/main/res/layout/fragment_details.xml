@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.details.DetailsFragment">
 
     <ScrollView
@@ -15,23 +16,26 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:layout_height="600dp"
+                android:layout_marginBottom="20dp"
                 android:adjustViewBounds="true"
-                tools:layout_height="300dp"
-                tools:scaleType="centerCrop"
+                tools:layout_height="600dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/roundedImage"
                 tools:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:id="@+id/text_view_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
+                android:maxLines="1"
+                android:ellipsize="end"
                 android:visibility="gone"
+                android:textColor="@android:color/darker_gray"
                 tools:text="this is the description"
                 tools:visibility="visible" />
 
@@ -39,8 +43,8 @@
                 android:id="@+id/text_view_creator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
                 android:visibility="gone"
                 tools:text="Photo by moejehad"
                 tools:visibility="visible" />
