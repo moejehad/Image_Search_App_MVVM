@@ -1,4 +1,4 @@
-package com.codinginflow.imagesearchapp
+package com.moejehad.image_search
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
