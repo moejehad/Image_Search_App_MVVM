@@ -9,6 +9,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ImageSearchApp/app/src/main/res/drawable/gradient.xml" value="0.1165" />
+        <entry key="..\:/ImageSearchApp/app/src/main/res/layout/activity_main.xml" value="0.17314814814814813" />
         <entry key="..\:/ImageSearchApp/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/ImageSearchApp/app/src/main/res/layout/item_unsplash_photo.xml" value="0.16" />
       </map>
