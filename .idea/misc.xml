@@ -12,6 +12,8 @@
         <entry key="..\:/ImageSearchApp/app/src/main/res/layout/activity_main.xml" value="0.17314814814814813" />
         <entry key="..\:/ImageSearchApp/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/ImageSearchApp/app/src/main/res/layout/item_unsplash_photo.xml" value="0.16" />
+        <entry key="..\:/ImageSearchApp/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.2" />
+        <entry key="..\:/ImageSearchApp/app/src/main/res/menu/menu_gallery.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
